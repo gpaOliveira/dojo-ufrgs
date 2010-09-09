@@ -14,6 +14,6 @@ def fizzBuzz(x):
 
 	return saida
 
-#rodar certo
-#for i in range(1,166):
-#	print(fizzBuzz(i))
+if __file__ == 'fizzBuzz.py':
+	for i in range(1,166):
+		print(fizzBuzz(i))
