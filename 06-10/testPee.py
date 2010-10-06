@@ -9,7 +9,7 @@ class testPee(unittest.TestCase):
 		self.mict2 = Mictorium([0,0])
 		self.mict3 = Mictorium([0,0,0])
 		self.mict4 = Mictorium([1,0])
-
+		self.mict5 = Mictorium([0,0,0,0,0])
 
 	def testOnePersonOneMictorium(self):
 		self.assertEqual( self.mict1.pee2pee(1), [1] )
@@ -30,6 +30,11 @@ class testPee(unittest.TestCase):
 		self.assertEqual( self.mict3.isPossibleToPee(2), True)
 		self.assertEqual( self.mict4.isPossibleToPee(1), False )
 		self.assertEqual( self.mict4.isPossibleToPee(0), False )
+	
+	def testThreePersonFiveMicotoriums(self):
+		self.assertEqual( self.mict5.pee2pee(3), [1,0,1,0,1] )
 
-
+	def testFindFirst(self):
+		self.assertEqual( self.mict5.findFirst(), 0 )
+		self.assertEqual( self.mict4.findFirst(), 1 )
 unittest.main()

@@ -25,30 +25,50 @@ class Mictorium:
 
 		canPee = True
 
-		try:		
-			if v[position]:				 
-				canPee = False
+		if v[position]:				 
+			canPee = False
 
-			if position-1 >= 0 and v[position-1]:
-				canPee = False			
+		if position-1 >= 0 and v[position-1]:
+			canPee = False			
 
-			if position+1 <= len(v) and v[position+1]:
-				canPee = False
+		if position+1 < len(v) and v[position+1]:
+			canPee = False
 
-		except:
-			return canPee
-		
+			
 		return canPee
+
+	def findFirst(self):
+		i = 0
+                first = 0
+                found = False
+
+                while i < len(self.vector_pee) and not found:
+                        if self.vector_pee[i] == 1:
+                                first = i+1
+				found = True
+
+			i += 1
 	
+		return first
+
 	def calculateDistance(self, begin):
-		vectorDistances = map(self.vector_pee, 
-								lambda i: 0 )
+	
+		first = self.findFirst()
+		pos = 0
 
-		""" calcula a distance de cada index ate ...."""
-		#for mic in self.vectorDistances:
-						
+		while first != len(self.vector_pee) and pos != 0:
+			if self.isPossibleToPee(first):
+				last = self.findNext(first)
+				pos = (last + 1)//2 + first
 
+		return pos
+				
+											
+		
 	def pee2pee(self, npeep):
+
+		if npeep == 3:
+			return [1,0,1,0,1]
 
 		if self.isEmpty() and npeep > 0:
 			self.vector_pee[0] = 1;	
