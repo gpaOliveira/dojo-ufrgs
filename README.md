@@ -10,6 +10,6 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 15/09 - Numerais Romanos - C
 * 22/09 - Vending Machine - Python
 * 29/09 - Bowling Scores - Java 
-
+* 06/10 - Mictorium Distance - Python
 
 
