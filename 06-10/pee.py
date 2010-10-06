@@ -43,43 +43,40 @@ class Mictorium:
                 found = False
 
                 while i < len(self.vector_pee) and not found:
-                        if self.vector_pee[i] == 1:
-                                first = i+1
+                        if self.vector_pee[i] == 0:
+                                first = i
 				found = True
 
 			i += 1
 	
 		return first
 
-	def calculateDistance(self, begin):
+	def calculateDistance(self):
 	
 		first = self.findFirst()
 		pos = 0
 
-		while first != len(self.vector_pee) and pos != 0:
+		while first < len(self.vector_pee) and pos != 0:
 			if self.isPossibleToPee(first):
 				last = self.findNext(first)
 				pos = (last + 1)//2 + first
 
+			first += 1
 		return pos
 				
 											
 		
 	def pee2pee(self, npeep):
 
-		if npeep == 3:
-			return [1,0,1,0,1]
+		if npeep == 0:
+			return self.vector_pee
 
-		if self.isEmpty() and npeep > 0:
-			self.vector_pee[0] = 1;	
+		if self.isEmpty():
+			self.vector_pee[0] = 1;
 
-		if len(self.vector_pee) < 3:
-			return self.vector_pee 
+		self.vector_pee[ self.calculateDistance() ] = 1
 
-		if not self.isEmpty() and npeep > 1:
-			self.vector_pee[2] = 1;
-		
-		return self.vector_pee
+		return self.pee2pee(npeep-1)
 
 #		if npeep == 0:
 #			return [0,0]
