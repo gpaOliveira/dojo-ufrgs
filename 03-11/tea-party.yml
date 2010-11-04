@@ -1,0 +1,2 @@
+driver: simplectest
+command: "cd tea-party; make -B"

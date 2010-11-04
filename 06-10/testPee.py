@@ -12,7 +12,7 @@ class testPee(unittest.TestCase):
 
 
 	def testOnePersonOneMictorium(self):
-		self.assertEqual( self.mict1.pee2pee(1), [1] )
+		self.assertEqual( self.mict1.pee2pee(1), [12] )
 	
 	def testOnePersonTwoMictoriums(self):
 		self.assertEqual( self.mict2.pee2pee(1), [1,0] )
