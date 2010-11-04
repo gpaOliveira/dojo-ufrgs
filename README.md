@@ -1,5 +1,4 @@
-# Dojo UFRGS
-
+# Dojo UFRGS 
 Todas as quartas-feiras um dojo para vocês!
 
 Lista de discussão: dojoufrgs@librelist.com
@@ -11,5 +10,6 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 22/09 - Vending Machine - Python
 * 29/09 - Bowling Scores - Java 
 * 06/10 - Mictorium Distance - Python
-
+* 11/10 - Telefones - Python
+* 21/10 - URL Splitting - Ruby
 
