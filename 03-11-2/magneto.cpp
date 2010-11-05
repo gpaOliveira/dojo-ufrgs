@@ -3,9 +3,9 @@
 #include <climits>
 #include <stdio.h>
 
-double distance(point p1, point p2)
+double distance(int x1, int y1, int x2, int y2)
 {
-	return sqrt(pow(p1.first - p2.first,2) + pow(p1.second - p2.second,2));
+	return sqrt(pow(x1 - x2,2) + pow(y1 - y2,2));
 }
 
 point magneto( vector<point> pts, int radius, point cursor )
@@ -15,7 +15,7 @@ point magneto( vector<point> pts, int radius, point cursor )
 
 	for(int i=0; i<pts.size(); i++)
 	{
-		float dist = sqrt(pow(pts[i].first - cursor.first,2) + pow(pts[i].second - cursor.second,2));
+		float dist = distance(pts[i].first,pts[i].second,cursor.first,cursor.second);
 
 		if(dist<minDist) {
 			minDist = dist;

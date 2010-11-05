@@ -32,12 +32,14 @@ START_TESTS()
 		ASSERT( magneto(two, 5, P(101,48) ) == P(100,50))
 	END_TEST()
 
-/*
-	START_TEST("testa distancia (0,0) - (0,1) retorna 1")
 
-		ASSERT(distance(P(0,0) , P(0,1) ) == 1)
+	START_TEST("testa distancia varios pontos")
+
+		ASSERT(distance(0,0 , 0,1 ) == 1)
+		ASSERT(distance(0,1 , 0,0 ) == 1)
+		ASSERT(distance(0,0 , 3,4 ) == 5)
 
 	END_TEST()
-*/
+
 
 END_TESTS()
