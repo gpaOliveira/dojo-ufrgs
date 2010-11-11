@@ -6,24 +6,20 @@
 #choose your compiler
 CC = g++
 
-OBJ = tea-party
-OBJ_TESTS = $(OBJ:=Test)
-
 FLAGS = -Wno-write-strings#-Wall uncomment to get warnings
 
-#making fizzBuzzTest and consequently fizzBuzz.o
-all: $(OBJ_TESTS)
-	@./morseTest
-#type make main to build the real program
-main: main.cpp $(OBJ:=.o)
+all: 
+	@echo "Use \"make nameTest\" to compile"
+
+#type make name-main to build the real program
+%-main: main.cpp %.o
 	@$(CC) -o $@ $^ $(FLAGS)
 
-#compiles the unit file, in this case fizzBuzz.o
+#compiles the unit file
 %.o: %.cpp
 	@$(CC) -c -o $@ $^ $(FLAGS)
 
 #compiles the test executable and links it with the .o
-#in this case its fizzBuzzTest linked with fizzBuzz.o
 %Test: %.o %Test.cpp
 	@$(CC) -o $@ $^ $(FLAGS)
 
