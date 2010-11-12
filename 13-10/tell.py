@@ -9,3 +9,7 @@ def findTelephone (w):
 				w -= w/45
 			ret += str((w-ord('A'))/3 + 2)
 	return ret
+
+#real life usage!
+#http://www.explosm.net/comics/2228/
+print findTelephone('fuckoff')
