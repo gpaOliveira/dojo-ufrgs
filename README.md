@@ -15,4 +15,6 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 03/10 - Tea Party e Magneto - C/C++
 * 10/11 - Campo Minado - Python
 * 17/11 - Movie Tickets - Python
-
+* ??
+* ??
+* 05/01 - Infix2Postfix - Python
