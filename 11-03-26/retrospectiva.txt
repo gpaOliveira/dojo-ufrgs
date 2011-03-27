@@ -1,0 +1,37 @@
+# :)
+Problema era legal
+Palestra do Ronaldo foi legal o/
+Ninguém se sentiu intimidado em perguntar
+Retrospectiva foi legal lol ?
+
+# :(
+Muita dispersão
+Platéia metida
+Coesão de menos
+Muito Acoplamento
+
+# Comments
+Tínhamos de discutir mais a Input e Output
+Fazer testes para as funções auxiliares
+
+# Idéias
+
+* Divulgar a linguagem antes
+
+# Presentes
+
+Jean
+Tomas
+Renato
+Marcos
+Frederico
+Lucas
+Dea
+Lisardo
+Marcelo
+Guilherme Azzi
+Marcela
+Maurício
+Fernanda
+Gabriel
+
