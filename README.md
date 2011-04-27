@@ -25,3 +25,5 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 05/01 - Infix2Postfix - Python
 * 26/03 - PokerHands - Ruby
 * 01/04 - Paridade Par - C
+* 18/04 - Amigo Secreto - Python
+* 27/04 - Cheque por Extenso - C/C++
