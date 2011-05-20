@@ -27,3 +27,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 01/04 - Paridade Par - C
 * 18/04 - Amigo Secreto - Python
 * 27/04 - Cheque por Extenso - C/C++
+* 19/05 - Game of Life - Lua
