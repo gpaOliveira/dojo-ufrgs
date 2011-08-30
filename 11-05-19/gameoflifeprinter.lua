@@ -1,19 +1,20 @@
 require "gameoflife"
 require "lunatest"
 
-local matrix = create_matrix(20,20)
-matrix[5][5] = true
-matrix[6][5] = true
-matrix[7][5] = true
-matrix[7][4] = true
-matrix[6][3] = true
-print_matrix(matrix, 20, 20)
+local matrix = create_matrix(25,25)
+
+matrix[13][13] = true
+matrix[13][14] = true
+matrix[13][15] = true
+matrix[12][14] = true
+matrix[14][13] = true
+
+print_matrix(matrix, 25, 25)
 
 while true do
-	matrix = next_generation(matrix,20,20)
-	print_matrix(matrix, 20, 20)
-	os.execute("sleep 0.5;clear")
+	matrix = next_generation(matrix,25,25)
+	print_matrix(matrix, 25, 25)
+	os.execute("sleep 0.25;clear")
 	print("")
 end
-
 
