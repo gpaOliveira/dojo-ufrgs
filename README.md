@@ -28,3 +28,7 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 18/04 - Amigo Secreto - Python
 * 27/04 - Cheque por Extenso - C/C++
 * 19/05 - Game of Life - Lua
+* 25/05 - Calculadora - C/C++
+* ??/?? - Ruby Koans
+* ??/?? - Lua missions
+* 25/08 - Cheque por extenso Reloaded - Python
