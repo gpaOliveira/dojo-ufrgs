@@ -32,3 +32,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * ??/?? - Ruby Koans
 * ??/?? - Lua missions
 * 25/08 - Cheque por extenso Reloaded - Python
+* 30/08 - Nuvem de Cinzas - C/C++
