@@ -33,3 +33,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * ??/?? - Lua missions
 * 25/08 - Cheque por extenso Reloaded - Python
 * 30/08 - Nuvem de Cinzas - C/C++
+* 12/09 - Quebrar Frase - Python
