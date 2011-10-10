@@ -34,3 +34,5 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 25/08 - Cheque por extenso Reloaded - Python
 * 30/08 - Nuvem de Cinzas - C/C++
 * 12/09 - Quebrar Frase - Python
+* 26/09 - Carregar Tilesets - Lua + Love
+* 03/10 - Colisão 2D - Lua + Love
