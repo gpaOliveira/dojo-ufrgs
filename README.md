@@ -36,3 +36,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 12/09 - Quebrar Frase - Python
 * 26/09 - Carregar Tilesets - Lua + Love
 * 03/10 - Colisão 2D - Lua + Love
+* 10/10 - Número de Erdos - Python
