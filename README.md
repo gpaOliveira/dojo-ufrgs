@@ -38,3 +38,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 03/10 - Colisão 2D - Lua + Love
 * 10/10 - Número de Erdos - Python
 * 24/10 - Lajotas na Sala - Ruby
+* 07/11 - Look and Say - Python
