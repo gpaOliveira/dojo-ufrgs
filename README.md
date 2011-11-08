@@ -37,3 +37,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 26/09 - Carregar Tilesets - Lua + Love
 * 03/10 - Colisão 2D - Lua + Love
 * 10/10 - Número de Erdos - Python
+* 24/10 - Lajotas na Sala - Ruby
