@@ -39,3 +39,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 10/10 - Número de Erdos - Python
 * 24/10 - Lajotas na Sala - Ruby
 * 07/11 - Look and Say - Python
+* 21/11 - Numeros Felizes - Racket Scheme
