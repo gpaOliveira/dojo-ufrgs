@@ -40,3 +40,7 @@ IRC: irc.freenode.net \#\#dojoufrgs
 * 24/10 - Lajotas na Sala - Ruby
 * 07/11 - Look and Say - Python
 * 21/11 - Numeros Felizes - Racket Scheme
+
+## Dojos de 2012
+
+* 08/05 - Alocação de Tarefas - Ruby
