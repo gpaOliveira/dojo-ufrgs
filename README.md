@@ -44,3 +44,4 @@ IRC: irc.freenode.net \#\#dojoufrgs
 ## Dojos de 2012
 
 * 08/05 - Alocação de Tarefas - Ruby
+* 21/05 - Game of Life - Python
